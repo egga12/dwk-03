@@ -1,0 +1,56 @@
+/* Add styles here */
+body{
+    background-image: url("images/images.jfif");
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0px;
+    background-color: white;
+    opacity: 50%;
+
+}
+.navbarmenu{
+    text-align: right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist >li{
+    display: inline-block;
+    padding:0px 5px ;
+}
+.navbarmenulist>li>a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenulist> li> a:hover{
+    font-weight: bold;
+}
+.navbarjudul{
+    text-decoration: none;
+    color:black;
+    font-size: 3em;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    text-shadow: 2px 2px 8px rgb(23, 170, 10);
+}
+#txhello{
+    font-size: 45px;
+    top: 20px;
+    left: 20px
+    position: relative;
+}
+#btn1{
+    position:relative;
+    padding:10px 50px ;
+    font-size: 20px;
+    border-radius: 18px;
+    top: 150px
+    left: 35px
+}
+#btn1:hover{
+    color:green
+}
